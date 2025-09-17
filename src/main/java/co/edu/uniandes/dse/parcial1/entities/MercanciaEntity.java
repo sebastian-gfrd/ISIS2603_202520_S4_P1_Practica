@@ -3,7 +3,6 @@ package co.edu.uniandes.dse.parcial1.entities;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 import lombok.Data;
 
@@ -11,8 +10,7 @@ import lombok.Data;
 @Entity
 public class MercanciaEntity extends BaseEntity{
    private String nombre;
-   @Id
-   private Long codigo_de_barras;
+   private String codigo_de_barras;
    private LocalDateTime fecha_de_recepcion;
    private Integer cantidad_disponible;
    @OneToOne
