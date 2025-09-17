@@ -10,6 +10,4 @@ import jakarta.transaction.Transactional;
 @Import(MercanciaService.class)
 public class MercanciaServiceTest {
     
-    // TODO: Escriba las pruebas para la clase MercanciaService
-    
 }

@@ -12,7 +12,7 @@ import lombok.Data;
 public class MercanciaEntity extends BaseEntity{
    private String nombre;
    @Id
-   private String codigo_de_barras;
+   private Long codigo_de_barras;
    private LocalDateTime fecha_de_recepcion;
    private Integer cantidad_disponible;
    @OneToOne
